@@ -1,0 +1,48 @@
+/* DASH LIGHT MODE DROPDOWNS */
+.Select-control, .Select-placeholder, .Select-menu-outer, .Select-menu, .Select-option, .Select.has-value.is-focused > .Select-control, .Select.is-open > .Select-control {
+    font-family: 'Segoe UI', 'Roboto', 'Arial', sans-serif !important;
+    font-size: 1.08em !important;
+    font-weight: 600 !important;
+}
+
+/* LIGHT MODE DROPDOWN (default) */
+.Select-control,
+.Select-menu-outer,
+.Select-menu,
+.Select-option {
+    background: #fff !important;
+    color: #21243d !important;
+    border-color: #1564bf !important;
+}
+body:not(.dark) .Select-placeholder {
+    color: #8ca0b3 !important;
+}
+body:not(.dark) .Select-option.is-focused {
+    background: #e8f0fe !important;
+    color: #21243d !important;
+}
+body:not(.dark) .Select-option.is-selected {
+    background: #d6e7fd !important;
+    color: #0a2540 !important;
+}
+
+/* DARK MODE DROPDOWN */
+body.dark .Select-control,
+body.dark .Select-menu-outer,
+body.dark .Select-menu,
+body.dark .Select-option {
+    background: #181e28 !important;
+    color: #f8fafc !important;
+    border-color: #38bdf8 !important;
+}
+body.dark .Select-placeholder {
+    color: #7f99b2 !important;
+}
+body.dark .Select-option.is-focused {
+    background: #213047 !important;
+    color: #fff !important;
+}
+body.dark .Select-option.is-selected {
+    background: #134e71 !important;
+    color: #fff !important;
+}
