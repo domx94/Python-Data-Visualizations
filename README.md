@@ -81,7 +81,7 @@ pip install -r requirements.txt
 Run the app:
 
 ```
- python "HealthCare Cost & Outcome Analytics (Synthetic).py"
+ python "Digital Skills Pulse.py"
 ```
 
 
