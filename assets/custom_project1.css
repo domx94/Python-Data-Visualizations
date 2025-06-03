@@ -1,0 +1,7 @@
+/* assets/custom.css */
+.dash-bootstrap .card:hover, .dbc-card:hover {
+    box-shadow: 0 8px 32px rgba(36, 98, 224, 0.21) !important;
+    transition: box-shadow 0.25s;
+    border: 1.5px solid #2563eb;
+    cursor: pointer;
+}
